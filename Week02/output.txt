@@ -1,0 +1,20 @@
+normalized formula (stastical package)
+Mean 1.0489703904839582 (1.0489703904839585)
+Variance 5.427220681881726 (5.4217934611998455)
+Skew 0.8806086425277365 (0.8806086425277364)
+Kurtosis 23.122200789989723 (23.122200789989723)
+Mean diff = -2.220446049250313e-16
+Variance diff = 0.00542722068188084
+Skewness diff = 1.1102230246251565e-16
+Kurtosis diff = 1.0658141036401503e-14
+T-test results for each moment:
+Mean: T-statistic = -0.3763354359879771, p-value = 0.7067074958783737
+Variance: T-statistic = -22.32421972918721, p-value = 9.631763993574687e-99
+Skewness: T-statistic = 1.898549502110655, p-value = 0.057767692342527
+Kurtosis: T-statistic = -32.03387654000375, p-value = 4.5212826846565146e-182
+
+Conclusion:
+We fail to reject null hypothesis and conclude that the difference is not significant and thus package is unbiased for mean calculation
+We reject null hypothesis and conclude that the difference is significant and thus package is biased for variance calculation
+We fail to reject null hypothesis and conclude that the difference is not significant and thus package is unbiased for skewness calculation
+We reject null hypothesis and conclude that the difference is significant and thus package is biased for kurtosis calculation
