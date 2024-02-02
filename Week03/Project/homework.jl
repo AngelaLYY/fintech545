@@ -9,7 +9,7 @@ using CSV
 
 #Problem 1
 #Read data and drop the column with dates
-rets = CSV.read("Project/DailyReturn.csv",DataFrame)
+rets = CSV.read("/Users/angelaliang/Documents/fintech545/Week03/Project/DailyReturn.csv",DataFrame)
 filter!(r->!ismissing(r.SPY), rets)
 nm = names(rets)
 nm = nm[nm.!="Column1"]
