@@ -87,6 +87,7 @@ cnames = names(pctExplained)
 cnames = cnames[findall(x->x!="x",cnames)]
 
 plot(pctExplained.x,Array(pctExplained[:,cnames]), label=hcat(cnames...), legend=:bottomright, title="% Explained by EigenValue")
+savefig("pctExplained.png")
 #As lambda descreases, the percent explained by the first eigenvalues increases.  This is because more weight
 #is added to the more recent observations.  The lower the lambda, the lower the rank of the matrix
 
