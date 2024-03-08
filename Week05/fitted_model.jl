@@ -117,7 +117,7 @@ function fit_general_t(x)
     u = cdf(errorModel,x)
 
     eval(u) = quantile(errorModel,u)
-
+    
     return FittedModel(nothing, errorModel, eval, errors, u)
 
     #return the parameters as well as the Distribution Object

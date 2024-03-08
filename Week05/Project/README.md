@@ -1,0 +1,1 @@
+For question 1, test 7, first install sklearn through `pip install scikit-learn`
